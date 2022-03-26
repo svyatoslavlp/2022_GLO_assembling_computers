@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   font-size: 62.5%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: normal;
+   color: #ffffff;
+   background: #333333;
+   background-image: url("../img/bgc.svg");
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   flex-shrink: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   padding: 0;
+   margin: 0;
+}
+
+button,
+input {
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+
+.button {
+   width: 186px;
+   height: 44px;
+   left: 1624px;
+   top: 38px;
+   border-radius: 5rem;
+   font-size: 1.6rem;
+   color: #FFFFFF;
+}
+
+.header_container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 4rem 11rem 4rem 8rem;
+}
+
+.logo {
+   display: block;
+   width: 4rem;
+   height: 4rem;
+}
+
+.header__link {
+   font-size: 1.6rem;
+}
+
+.header__link:not(:last-child) {
+   padding-right: 7.1rem;
+}
+
+.header__button {
+   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.container {
+   width: 130rem;
+   margin: 0 auto;
+}
